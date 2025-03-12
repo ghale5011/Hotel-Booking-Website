@@ -1,0 +1,34 @@
+/* General font styles for the entire website */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Custom font style for specific headers */
+.h-font {
+    font-family: 'Merienda', cursive; 
+}
+
+/* Remove the spinner controls from number input fields in Webkit-based browsers (like Chrome and Edge) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Hides the spinner controls */
+    margin: 0; /* Removes default margins */
+}
+
+/* Remove spinner controls from number input fields in Firefox */
+input[type=number] {
+    -moz-appearance: textfield; /* Hides the spinner controls */
+}
+
+/* Custom background style for buttons */
+.custom-bg {
+    background-color: #2ec1ac; /* Teal background color */
+    border: 1px solid #2ec1ac; /* Border matching the background */
+}
+
+/* Custom hover effect for buttons */
+.custom-bg:hover {
+    background-color: #279e8c; /* Slightly darker teal on hover */
+    border-color: #279e8c; /* Border color changes to match hover color */
+}
+
